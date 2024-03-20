@@ -43,7 +43,7 @@ header {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    padding: 1.4rem 7%;
+   
     z-index: 999;
 }
 
