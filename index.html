@@ -1,317 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hesha Edmon - Personal Portfolio</title>
+   -->
+
+  <meta property="og:title" content="Hesha Edmon - Personal Portfolio" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://www.example.com/images/og-image.jpg" />
+  <meta property="og:url" content="https://www.example.com/guide/open-graph" />
 
     <!-- swiper link  -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <!-- cdn icon link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <!-- custom css file  -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- header section start here  -->
     <header class="header">
-        <div class="logoContent">
-            <a href=""><img src="images/logo.png" alt="logo" border="0"></a>
-            
-        </div>
+      <div class="logoContent">
+        <a href=""><img src="images/logo.png" alt="logo" border="0" /></a>
+      </div>
 
-        <nav class="navbar">
-            
-            <a href="#home">About</a>
-            <a href="#product">Projects</a>
-            <a href="#blogs">Blogs</a>
-            <a href="https://www.linkedin.com/in/hesha-edmon-64b63a252/">LinkedIn</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#home">About</a>
+        <a href="#product">Projects</a>
+        <a href="#blogs">Blogs</a>
+        <a href="https://www.linkedin.com/in/hesha-edmon-64b63a252/"
+          >LinkedIn</a
+        >
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <div class="icon">
-            <i class="fas fa-search" id="search"></i>
-            <i class="fas fa-bars" id="menu-bar"></i>
-        </div>
-
-       
+      <div class="icon">
+        <i class="fas fa-search" id="search"></i>
+        <i class="fas fa-bars" id="menu-bar"></i>
+      </div>
     </header>
     <!-- header section end here  -->
 
     <!-- home section start here  -->
     <section class="home" id="home">
-        <div class="homeContent">
-            <h2>Hi, I'm Hesha</h2>
-            <p>I'm a motivated computer science undergraduate at University of Westminster with a strong dedication to achieving results, particularly in Java and MERN Stack development.</p>
-            
-            <div class="home-btn">
-                <a href="#product"><button>Explore my work</button></a>
-                <a href="https://drive.google.com/file/d/1kjCV69oVlZYU7BYPsG_McIbMQ6YinnkN/view?usp=sharing"><button>View my CV</button></a>
-            </div>
+      <div class="homeContent">
+        <h2>Hi, I'm Hesha</h2>
+        <p>
+          I'm a motivated computer science undergraduate at University of
+          Westminster with a strong dedication to achieving results,
+          particularly in Java and MERN Stack development.
+        </p>
+
+        <div class="home-btn">
+          <a href="#product"><button>Explore my work</button></a>
+          <a
+            href="https://drive.google.com/file/d/1kjCV69oVlZYU7BYPsG_McIbMQ6YinnkN/view?usp=sharing"
+            ><button>View my CV</button></a
+          >
         </div>
+      </div>
     </section>
 
     <!-- home section end here  -->
 
     <!-- product section start here  -->
     <section class="product" id="product">
-        <div class="heading">
-            <h2>Projects</h2>
-        </div>
-        <div class="swiper product-row">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href="https://ibb.co/HXhGTmQ"><img src="images/effisync.jpg" alt="chocolate" border="0"></a>
-                    </div>
-                    <div class="product-content">
-                        <h3>EffiSync- Productivity Management Application</h3>
-                        <p>Design and implementing key features such as progress visualization, and performance analytics, empowering users to optimize their productivity workflows.
-
-                            <br>Technologies: Python, Node, React , Figma</p>
-                        <div class="orderNow">
-                            <a href="https://github.com/KA909/EffiSync-CS99"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/sugarSprinles.png" alt="vanila" border="0"></a>
-
-                    </div>
-                    <div class="product-content">
-                        <h3>Sugar Sprinkles Bakery- Web Application</h3>
-                        <p>
-                            Implemented modern design principles and utilized cutting-edge frontend technologies to enhance performance and usability.<br>Technologies: HTML, Css, JavaScript
-                        </p>
-                        <div class="orderNow">
-                            <a href="https://github.com/heshaaa5/SugarSprinklesBakery-Application"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/noori.png"coffee" border="0"></a>
-                    </div>
-                    <div class="product-content">
-                        <h3>Noori Jaggery -Web Application</h3>
-                        <p>uccessfully launched the website, catalyzing heightened brand visibility and fostering new avenues for customer interaction and acquisition.
-                            Collaborated closely with stakeholders to meticulously capture requirements and deliver a tailored solution aligned with business objectives.
-                            <br>Technologies : HTML, CSS and JavaScript
-                        </p>
-                        <div class="orderNow">
-                            <a href="https://github.com/heshaaa5/Noori-Jaggery-Web-Application"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/mern.jpg" alt="lemon" border="0"></a>
-                    </div>
-                    <div class="product-content">
-                        <h3>Amazona - E Commerce Platform </h3>
-                        <p>
-                            Implemented various e-commerce functionalities, including product listings, shopping cart, checkout process, and payment gateways. integration.<br>Technologies : React, Node, Express, MongoDB, Typescript, Postman
-                        </p>
-                        <div class="orderNow">
-                            <a href="https://github.com/heshaaa5/Amazona-E-Commerce-Platform"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-
+      <div class="heading">
+        <h2>Projects</h2>
+      </div>
+      <div class="swiper product-row">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href="https://ibb.co/HXhGTmQ"
+                ><img src="images/effisync.jpg" alt="chocolate" border="0"
+              /></a>
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="swiper product-row">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/customer.jpg" alt="Customer Management System" border="0"></a>
-                    </div>
-                    <div class="product-content">
-                        <h3>Customer Management System</h3>
-                        <p>
-                            Implemented to execute crud operations regarding customers.Have a seamless user experience to optimize the robustness. <br>Technologies: ReactJs, NodeJs, MySQL
-                        </p>
-                        <div class="orderNow">
-                            <a href="https://github.com/heshaaa5/Customer-Management-System--Node.js-MySQL"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/Sales-Forecasting.png" alt="blackforest" border="0"></a>
-                    </div>
-                    <div class="product-content">
-                        <h3>Future Sales Forecast project </h3>
-                        <p>
-                            Designed and implemented robust algorithms and statistical models to forecast sales trends, identify patterns, and anticipate future demand with high accuracy.
+            <div class="product-content">
+              <h3>EffiSync- Productivity Management Application</h3>
+              <p>
+                Design and implementing key features such as progress
+                visualization, and performance analytics, empowering users to
+                optimize their productivity workflows.
 
-                           <br> Technologies: Python
-                        </p>
-                        <div class="orderNow">
-                            <a href="https://github.com/heshaaa5/Future-Sales-Forecast-project"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/shopping.jpg" alt="Shopping Management System" border="0"></a>
-                    </div>
-                    <div class="product-content">
-                        <h3>Shopping Management System</h3>
-                        <p>
-                            Implemented smooth and efficient shopping system for both customers and managers. Desinged the UI using java swing components.
-                            <br>Technologies: Java, Java Swing
-                        </p>
-                        <div class="orderNow">
-                            <a href="https://github.com/heshaaa5/Shopping-Management-System-Java-Swing"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/hospital.png" alt="Hospital Management System" border="0"></a>
-                    </div>
-                    <div class="product-content">
-                        <h3>Hospital Management System</h3>
-                        <p>
-                         Implemented the basic Create, Update , Retrive and Delete operations using Java OOP concepts.
-                            <br>Technologies: Java
-                        </p>
-                        <div class="orderNow">
-                            <a href="https://github.com/heshaaa5/Hospital-Management-System-Java"><button>View Project </button></a>
-                        </div>
-                    </div>
-                </div>
-
+                <br />Technologies: Python, Node, React , Figma
+              </p>
+              <div class="orderNow">
+                <a href="https://github.com/KA909/EffiSync-CS99"
+                  ><button>View Project</button></a
+                >
+              </div>
             </div>
-            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img src="images/sugarSprinles.png" alt="vanila" border="0"
+              /></a>
+            </div>
+            <div class="product-content">
+              <h3>Sugar Sprinkles Bakery- Web Application</h3>
+              <p>
+                Implemented modern design principles and utilized cutting-edge
+                frontend technologies to enhance performance and usability.<br />Technologies:
+                HTML, Css, JavaScript
+              </p>
+              <div class="orderNow">
+                <a
+                  href="https://github.com/heshaaa5/SugarSprinklesBakery-Application"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""><img src="images/noori.png"coffee" border="0"></a>
+            </div>
+            <div class="product-content">
+              <h3>Noori Jaggery -Web Application</h3>
+              <p>
+                uccessfully launched the website, catalyzing heightened brand
+                visibility and fostering new avenues for customer interaction
+                and acquisition. Collaborated closely with stakeholders to
+                meticulously capture requirements and deliver a tailored
+                solution aligned with business objectives. <br />Technologies :
+                HTML, CSS and JavaScript
+              </p>
+              <div class="orderNow">
+                <a
+                  href="https://github.com/heshaaa5/Noori-Jaggery-Web-Application"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img src="images/mern.jpg" alt="lemon" border="0"
+              /></a>
+            </div>
+            <div class="product-content">
+              <h3>Amazona - E Commerce Platform</h3>
+              <p>
+                Implemented various e-commerce functionalities, including
+                product listings, shopping cart, checkout process, and payment
+                gateways. integration.<br />Technologies : React, Node, Express,
+                MongoDB, Typescript, Postman
+              </p>
+              <div class="orderNow">
+                <a
+                  href="https://github.com/heshaaa5/Amazona-E-Commerce-Platform"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper product-row">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img
+                  src="images/customer.jpg"
+                  alt="Customer Management System"
+                  border="0"
+              /></a>
+            </div>
+            <div class="product-content">
+              <h3>Customer Management System</h3>
+              <p>
+                Implemented to execute crud operations regarding customers.Have
+                a seamless user experience to optimize the robustness.
+                <br />Technologies: ReactJs, NodeJs, MySQL
+              </p>
+              <div class="orderNow">
+                <a
+                  href="https://github.com/heshaaa5/Customer-Management-System--Node.js-MySQL"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img
+                  src="images/Sales-Forecasting.png"
+                  alt="blackforest"
+                  border="0"
+              /></a>
+            </div>
+            <div class="product-content">
+              <h3>Future Sales Forecast project</h3>
+              <p>
+                Designed and implemented robust algorithms and statistical
+                models to forecast sales trends, identify patterns, and
+                anticipate future demand with high accuracy.
+
+                <br />
+                Technologies: Python
+              </p>
+              <div class="orderNow">
+                <a
+                  href="https://github.com/heshaaa5/Future-Sales-Forecast-project"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img
+                  src="images/shopping.jpg"
+                  alt="Shopping Management System"
+                  border="0"
+              /></a>
+            </div>
+            <div class="product-content">
+              <h3>Shopping Management System</h3>
+              <p>
+                Implemented smooth and efficient shopping system for both
+                customers and managers. Desinged the UI using java swing
+                components.
+                <br />Technologies: Java, Java Swing
+              </p>
+              <div class="orderNow">
+                <a
+                  href="https://github.com/heshaaa5/Shopping-Management-System-Java-Swing"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img
+                  src="images/hospital.png"
+                  alt="Hospital Management System"
+                  border="0"
+              /></a>
+            </div>
+            <div class="product-content">
+              <h3>Hospital Management System</h3>
+              <p>
+                Implemented the basic Create, Update , Retrive and Delete
+                operations using Java OOP concepts.
+                <br />Technologies: Java
+              </p>
+              <div class="orderNow">
+                <a
+                  href="https://github.com/heshaaa5/Hospital-Management-System-Java"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
 
     <!-- product section end here  -->
 
     <!-- blogs section start here  -->
     <section class="blogs" id="blogs">
-
-        <div class=" swiper blogs-row">
-            <div class="swiper-wrapper">
-                
-                <div class=" swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/Encapsulation.png" alt="blog-img1" border="0"></a>
-                    </div>
-                    <div class="content">
-                        <h3>Unlocking the Power of Encapsulation in Java: A Beginner’s Guide to Robust Code</h3>
-                        <p>Introduction: Cracking the Capsule of Encapsulation in Java
-                            Ever wondered how a coffee machine transforms those roasted beans into your perfect cup of espresso with just a click? That’s a classic example of hiding complexity and showcasing simplicity, much like encapsulation in Java </p>
-                        <a href="https://medium.com/@heshaedmon/encapsulation-in-java-a-beginners-guide-to-robust-code-05cb43757a6f" class="btn">learn more</a>
-                    </div>
-                </div>
-                <div class=" swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/Polymorphism.png" alt="blog-img2" border="0"></a>
-                    </div>
-                    <div class="content">
-                        <h3>Polymorphism in Java: The Shape-Shifting Superpower of Code</h3>
-                        <p>In the bustling cityscape of programming languages, Java stands tall with its skyscrapers of concepts and alleyways of syntax. Among these towering ideas is polymorphism, a term that might seem as enigmatic as a shadowy figure in a detective novel.</p>
-                        <a href="https://medium.com/@heshaedmon/polymorphism-in-java-the-shape-shifting-superpower-of-code-4dc009c9297e" class="btn">learn more</a>
-                    </div>
-                </div>
-                <div class=" swiper-slide box">
-                    <div class="img">
-                        <a href=""><img src="images/java.png" alt="pineapple" border="0"></a>
-                    </div>
-                    <div class="content">
-                        <h3>Java: The Unparalleled Champion Among Programming Languages</h3>
-                        <p>In the vast universe of programming, a multitude of languages coexist, each offering unique strengths and capabilities. However, amidst this diversity, one language consistently stands tall — Java.</p>
-                        <a href="https://medium.com/@heshaedmon/java-the-unparalleled-champion-among-programming-languages-f45a27012354" class="btn">learn more</a>
-                    </div>
-                </div>
+      <div class="swiper blogs-row">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img src="images/Encapsulation.png" alt="blog-img1" border="0"
+              /></a>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-
-
+            <div class="content">
+              <h3>
+                Unlocking the Power of Encapsulation in Java: A Beginner’s Guide
+                to Robust Code
+              </h3>
+              <p>
+                Introduction: Cracking the Capsule of Encapsulation in Java Ever
+                wondered how a coffee machine transforms those roasted beans
+                into your perfect cup of espresso with just a click? That’s a
+                classic example of hiding complexity and showcasing simplicity,
+                much like encapsulation in Java
+              </p>
+              <a
+                href="https://medium.com/@heshaedmon/encapsulation-in-java-a-beginners-guide-to-robust-code-05cb43757a6f"
+                class="btn"
+                >learn more</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img src="images/Polymorphism.png" alt="blog-img2" border="0"
+              /></a>
+            </div>
+            <div class="content">
+              <h3>
+                Polymorphism in Java: The Shape-Shifting Superpower of Code
+              </h3>
+              <p>
+                In the bustling cityscape of programming languages, Java stands
+                tall with its skyscrapers of concepts and alleyways of syntax.
+                Among these towering ideas is polymorphism, a term that might
+                seem as enigmatic as a shadowy figure in a detective novel.
+              </p>
+              <a
+                href="https://medium.com/@heshaedmon/polymorphism-in-java-the-shape-shifting-superpower-of-code-4dc009c9297e"
+                class="btn"
+                >learn more</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <a href=""
+                ><img src="images/java.png" alt="pineapple" border="0"
+              /></a>
+            </div>
+            <div class="content">
+              <h3>
+                Java: The Unparalleled Champion Among Programming Languages
+              </h3>
+              <p>
+                In the vast universe of programming, a multitude of languages
+                coexist, each offering unique strengths and capabilities.
+                However, amidst this diversity, one language consistently stands
+                tall — Java.
+              </p>
+              <a
+                href="https://medium.com/@heshaedmon/java-the-unparalleled-champion-among-programming-languages-f45a27012354"
+                class="btn"
+                >learn more</a
+              >
+            </div>
+          </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </section>
-    
+
     <!-- blogs section ends here  -->
 
-  
- 
     <!-- review section ends here  -->
 
     <!-- footer section start here  -->
 
     <footer class="footer" id="contact">
-        <div class="box-container">
-            <div class="mainBox">
-                <div class="content">
-                    <a href=""><img src="images/logo.png" alt="logo" border="0"></a>
-                    
-                </div>
-
-                
-
-            </div>
-            <div class="box">
-                <h3>Quick link</h3>
-                <a href="#home"> <i class="fas fa-arrow-right"></i>Home</a>
-                <a href="#product"> <i class="fas fa-arrow-right"></i>Projects</a>
-                <a href="#blogs"> <i class="fas fa-arrow-right"></i>Blogs</a>
-                
-                
-
-            </div>
-         
-            <div class="box">
-                <h3>Contact Info</h3>
-                <a href="#"> <i class="fas fa-phone"></i>+94717024743</a>
-                <a href="#"> <i class="fas fa-envelope"></i>heshahedmon@gmail.com</a>
-
-            </div>
-
+      <div class="box-container">
+        <div class="mainBox">
+          <div class="content">
+            <a href=""><img src="images/logo.png" alt="logo" border="0" /></a>
+          </div>
         </div>
-        <div class="share">
-           
-           
-           
+        <div class="box">
+          <h3>Quick link</h3>
+          <a href="#home"> <i class="fas fa-arrow-right"></i>Home</a>
+          <a href="#product"> <i class="fas fa-arrow-right"></i>Projects</a>
+          <a href="#blogs"> <i class="fas fa-arrow-right"></i>Blogs</a>
         </div>
-        
-       
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"> <i class="fas fa-phone"></i>+94717024743</a>
+          <a href="#"> <i class="fas fa-envelope"></i>heshahedmon@gmail.com</a>
+        </div>
+      </div>
+      <div class="share"></div>
     </footer>
-
-
-
-
-
-
-
-
-
 
     <!-- swiper js link  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- custom js file  -->
     <script src="index.js"></script>
-
-
-</body>
-
+  </body>
 </html>
